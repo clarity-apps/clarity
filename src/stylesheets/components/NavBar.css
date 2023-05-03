@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.navbar-left > a {
+  margin-left: auto;
+}
+
+.navbar-right > a {
+  margin: auto;
+}
+
