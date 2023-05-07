@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "concurrently \"NODE_ENV=development nodemon -w /server/server.ts\"  \"vite\"",
+    "dev-fe": "vite",
     "preview": "vite preview",
     "build": "yarn tscheck && vite build",
     "tscheck": "tsc -w",
